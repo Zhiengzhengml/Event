@@ -43,7 +43,6 @@ public class Main {
         Scanner reader = new Scanner(System.in);
         int choice = reader.nextInt();  
         
-    while(choice != 7){
         switch(choice){
             case 1:
             System.out.println("Enter the name of the attendee you want to add:");
@@ -80,13 +79,13 @@ public class Main {
             System.out.println("The total number of attendees is " + totalAttendees);
             break;
             case 6:
-            System.out.println("Exit.");
+            System.out.println("Do nothing.");
             break;
         }
-    reader.close();
+        reader.close();
    }
 }
-}
+
 
 
 
